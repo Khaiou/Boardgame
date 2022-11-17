@@ -20,6 +20,7 @@ public class Drawed extends Canvas{
         BufferedImage cat = null;
         try {
             cat = ImageIO.read(new File("catter.jpg"));
+            //just replace catter.jpg with the name of the actual board image file
         } catch (IOException e) {
         }
         g.drawImage(cat, 0, 0, null);
