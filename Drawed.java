@@ -4,6 +4,8 @@ import java.awt.*;
 import java.awt.image.*;
 import java.io.*;
 
+// this is probably best as it's own Background class
+
 public class Drawed extends Canvas{
     public static void main(String[] args) {
         JFrame koda = new JFrame("My Cat");
